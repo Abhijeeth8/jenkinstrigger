@@ -1,7 +1,7 @@
 pipeline{
   stages{
     agent any
-    stage(Triggering Jenkins){
+    stage("Triggering-Jenkins"){
       steps{
         echo "Build complete..."
       }
