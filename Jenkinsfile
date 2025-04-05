@@ -1,6 +1,6 @@
 pipeline{
+  agent any
   stages{
-    agent any
     stage("Triggering-Jenkins"){
       steps{
         echo "Build complete..."
